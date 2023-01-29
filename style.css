@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+* {
+    color: white;
+}
+
+.content-container {
+    background-color: orange;
+    padding: 0 200px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.content > h2 {
+    font-weight: 500;
+}
+
+#time {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons > button {
+    background-color: orange;
+    border-color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    cursor: pointer;
+}
